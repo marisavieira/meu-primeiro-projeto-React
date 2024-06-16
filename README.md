@@ -1,3 +1,5 @@
-# Meu Primeiro Projeto usando React + Vite
+# Meu prinmeiro projeto React
 
-Este é meu primeiro projeto desenvolvido com React e Vite
+Nesta aplicação React utilizei Vite com os conceitos mais importantes do React, entre eles componetização, propriedades, estados, imutabilidade e hooks.
+
+Nela utilizei apenas JavaScript, porém no meu projeto eu converti toda aplicação para TypeScript e realizei algumas melhorias.
