@@ -6,10 +6,16 @@ import { useState } from 'react';
 export function Comment({content, onDeleteComment}){
 
     const [likeCount, seLikeCount] = useState(0);
-
+    
     function handleLikeComment(){
-        seLikeCount(likeCount + 1);
+        seLikeCount((state) => {
+            return state + 1;
+        }            
+        );
     }
+    // function handleLikeComment(){
+    //     seLikeCount(likeCount + 1);
+    // }
     //<button onClick={()=>seLikeCount(likeCount + 1)}>
 
     function handleDeleteComment() {
