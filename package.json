@@ -1,6 +1,6 @@
 {
-  "name": "proseia",
-  "private": false,
+  "name": "meu-primeiro-projeto-React",
+  "private": true,
   "homepage": "https://marisavieira.github.io/meu-primeiro-projeto-React/"
   "version": "0.0.0",
   "type": "module",
